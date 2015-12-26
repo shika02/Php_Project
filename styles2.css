@@ -1,0 +1,98 @@
+
+body{
+	text-align:center;
+	font-family: "VINERITC";
+	src: url('C:\xampp\htdocs\project');
+}
+header{
+background-color:#79BAEC;
+//background: linear-gradient(red, blue);
+//background: -moz-linear-gradient(red, blue);
+
+width:100%;
+height:110px;
+position:fixed;
+//background: url("images/wall.jpg");
+text-align: center;
+line-height: 90px;
+background-image: url("images/logo.png");
+background-position: left;
+background-repeat: no-repeat;
+font-size: 22px;
+font-family: "Comic Sans MS", cursive, sans-serif;
+font-style: oblique;
+
+ 
+}
+
+p{	
+	position:fixed;
+	top:90px;
+	height:30px;
+	width: 100%;
+	text-align: right;
+	font-size: 15px;
+	background-color: #82CAFF;
+	line-height: 28px;
+	font-style: oblique;
+	
+
+
+}
+/*
+#nav{
+	width:100%;
+	height:50px;
+	top:100px;
+	position:fixed;
+	background-color: #A4A4A4;
+	text-align:center;
+	line-height:50px;
+}*/
+.sub-menu
+{
+	display:block;
+    clear:both;
+}
+.banner{
+	position:relative;
+	width:100%;
+	height:500px;
+	top:130px;
+	background: url("images/sss2.jpg");
+	//background-color: white;
+	background-repeat: no-repeat;
+	-webkit-animation-duration:3s;
+	/*-webkit-animation-delay:1s;
+	-webkit-animation-iteration-count:infinite;*/
+
+}
+.content{
+		position:absolute;
+		width:100%;
+		height:300px;
+		top:510px;
+	background-color:#D8D8D8;
+	font : "verdana";
+	font-size: 20px;
+	color: #008080;
+	font-style: oblique;
+	-webkit-animation-duration:3s;
+	
+}
+
+
+.first{
+	position:relative;
+	background-image:url("images/exterior.jpg");
+	background-repeat: no-repeat;
+	background-image:right;
+	background-color:#D8D8D8;
+}
+.second{
+	position:relative;
+	background-image:url("images/interior.jpg");
+	background-repeat: no-repeat;
+	background-image:right;
+	background-color:#FFFFFF;
+}

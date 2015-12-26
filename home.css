@@ -1,0 +1,90 @@
+#searchContent{position:relative;width:100%;float:left;z-index: 1;background-color: #000;padding:100px 0;text-align:center;}	
+.searchForm{width:60%;margin:0 auto}
+.searchText{font-size:44px;line-height:50px;color:#FFF;z-index: 1;position: relative;}
+.searchText h1{font-weight:400}
+.searchText span.sp{font-size:22px;}
+.formData{width:92%;float:left;border:3px solid #FF4C09;margin-top:45px;position:relative;padding:25px 4% 0;color:#FFF;text-align: left;z-index: 1;}
+.label{font-weight:700;text-transform:uppercase;margin-bottom: 5px;margin-left: 3px;}
+input[type="text"]{border: 1px solid #FFF;border-radius: 4px;color: #000;padding:8px 5px 8px 30px;background-color:#FFF;width:90%;font-size: 15px;line-height:22px;}
+.textBox{position:relative;}
+.submitBtn{padding: 10px 0;text-align: center;background-color: #EF2B11;width: 240px;margin: 0 auto;position: absolute;left: 0;right: 0;bottom: -20px;}
+.submitBtn input[type="submit"]{text-transform: uppercase;color: #FFF;font-size: 20px;font-weight: 700;line-height: 24px;cursor:pointer}
+.slider{width:85px;margin:0 auto;}
+.slider ul li{background: #54187C;border-radius: 50%;cursor: pointer;float: left;height: 17px;list-style: none;width: 17px;padding-left: 0;}
+.slider ul li.active{background: #7D25D3}
+.slider ul li+li{margin-left:10px}
+.slider ul li span{display: none;}
+#testimonial{float:left;width:100%;padding-top:50px;}	
+.monialContent{float:left;width:100%;padding:20px 0;margin-bottom: 30px;overflow:hidden}
+.image img{border-radius:50%;width:125px;height:125px;}
+.quote{padding:10px 0;width: 70%;text-align: center;margin: 0 auto;line-height: 22px;}
+.name{font-size:16px;font-weight:700;font-style: italic;}	
+.textIcon{position: absolute;left: 7px;top: 1px;width: 30px;height: 35px;}
+.lIcon{background-position: -24px -133px;}
+.eIcon{background-position: -62px -133px;}
+.cIcon{background-position: -112px -133px;}
+.fIcon{background-position: -165px -133px;}
+.sIcon{background-position: -204px -133px;}
+#email_id{padding-left: 40px;width: 85%;}
+#company_id,#model_id,#service_type_id{text-indent:37px;}	
+.monialContent ul{width:2500px;}
+.monialContent ul li{list-style:none;float:left;width:315px;text-align:center}
+#feedbackForm input[type=text]{background-color:transparent;border-radius: 0;padding: 3px;width: 370px;border-bottom: 1px solid #ddd;border-left: 1px solid #ccc;border-right: 1px solid #ccc;border-top: 1px solid #777;}
+.search_result { position:absolute;background-color: #FFF;color: #000;width: 101%;z-index: 1;border: 1px solid #CCC; border-radius: 3px; }
+.search_result li {list-style: none; padding: 5px 10px;cursor: pointer}
+.search_result li:hover, .search_result li.active {background-color: #DDD}
+#serviceCenter a {color: #FFF;text-decoration: none; }
+#slides{position: fixed !important;top: 0;opacity: 0.8;z-index: 0;}
+
+.mt15{margin-top: 15px;}
+#mainPage{max-width:none;margin: 0;}
+#mainPage .block{width:100%;margin:0 auto;max-width:1200px;}
+#topContent{display:none}
+#searchContent .block{margin-top:42px}
+.downArrow{text-align:center;margin:10px 0}
+.downArrow img{cursor:pointer}
+.stepContent{padding:0;float:none;background:none}
+.stepContent .block{background-image:url('../images/steps_bg.jpg');padding:30px 0;display: table;}
+.mainLogo{top:25px;left:20px}
+#serviceCenter{padding:0;background:none;width: 100%;}
+#serviceCenter .block{padding:60px 0 45px 0;color:#FFF;background-image:url('../images/Sprite.png');background-position: 0px -460px;position:relative}
+#brandService{padding:0;width:100%}
+#brandService  .brandBlock{float: left;padding: 30px 3%;width: 94%;}
+#carModel{padding:0;background:none;width: 100%;float:none;height: auto;}
+#carModel .block{padding:60px 0;display:table;background-color:#F6F4E5;position:relative;height:353px;overflow: hidden;}
+.social_share{float: none;}
+.social_share .block{text-align:right}
+.car_manufacturers{background:none}
+.car_manufacturers .block{background-color: #393939;text-align: center;color:#FFF}
+#aboveFooter .block{padding:30px 0;background-color:#1D1B1C;color:#FFF;position:relative;display:table}
+#footer{background:none;padding:0}
+#footer .block{background-color:#393939;color:#FFF;text-align:center;padding:20px 0;position:relative}
+.animated {-webkit-animation-duration: 0s;animation-duration: 0s;-webkit-animation-fill-mode: both;animation-fill-mode: both;-webkit-animation-delay: 0.5s;-moz-animation-delay: 0.5s;animation-delay: 0.5s;}
+
+/* Media Query */
+@media screen and (min-width: 769px) and (max-width: 1024px){ 
+	.searchForm{width:70%}
+}
+@media screen and (min-width: 601px) and (max-width: 768px){
+	#searchContent{width:92%;padding:80px 4%}
+	.monialContent ul{margin-left:-190px}
+}
+@media screen and (max-width: 600px){
+	.formData{border:none;margin-top: 10px;}
+	.mainLogo{left:0}
+	.searchText{font-size:36px;line-height:40px}
+	#serviceCenter .block{height: 400px;overflow: hidden;}
+	#carModel .block{display:block}
+}
+@media screen and (max-width: 768px){
+	.searchForm,.wd48,.formData .wd33,.formData .wd34{width:100%}
+	.formData .email,.formData .fuel,.formData .service{margin-top:15px;}
+	.downArrow{display:none}
+}
+@media screen and (max-width: 480px){
+	.searchText{font-size:22px;line-height:26px}
+	#testimonial .wdmn{width:70%}
+	.monialContent ul li{width:250px;}
+	.formData{padding-top:10px}
+	
+}
